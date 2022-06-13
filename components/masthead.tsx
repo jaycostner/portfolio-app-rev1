@@ -18,6 +18,14 @@ const Masthead: React.FC = () => {
                     <span>SaaS Development</span>{' '} <span>Done Right</span>
                 </h2>
             </div>
+            <div className="flex-grow-0 pb-20 md:pb-10 transition-all duration-1000">
+              <Image  
+              src="/arrow-down-hero.png"
+              width={188 / 3}
+              height={105 / 3}
+              alt="scroll down"
+              />
+            </div>
             </div>
     )
 }

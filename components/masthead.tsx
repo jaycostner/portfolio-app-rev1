@@ -6,7 +6,7 @@ const Masthead: React.FC = () => {
     return (
         <div className="min-h-screen flex flex-col items-center justify-center">
             <video autoPlay loop muted playsInline className="absolute w-full h-full object-cover">
-                <source src="/bgvid.m4v" type="video/mp4; codecs=hvc1" />
+                <source src="/bgvid.mp4" type="video/mp4; codecs=hvc1" />
                 <source src="/bgvid.webm" type="video/webm; codecs=vp9" />
             </video>
             <div className={`flex-grow-0 pt-10 transition-opacity duration-1000`}>

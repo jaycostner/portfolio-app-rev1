@@ -6,8 +6,8 @@ const Masthead: React.FC = () => {
     return (
         <div className="min-h-screen flex flex-col items-center justify-center">
             <video autoPlay loop muted playsInline className="absolute w-full h-full object-cover">
-                <source src="/bgvid.mp4" type="video/mp4; codecs=hvc1" />
-                <source src="/bgvid.webm" type="video/webm; codecs=vp9" />
+                <source src="/final-bg.mp4" type="video/mp4; codecs=hvc1" />
+                <source src="/final-bg.webm" type="video/webm; codecs=vp9" />
             </video>
             <div className={`flex-grow-0 pt-10 transition-opacity duration-1000`}>
                 <Image src="/8mlogo.png" width={160 / 3} height={160 / 3} alt="logo" />

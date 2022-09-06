@@ -7,8 +7,8 @@ const AboutUs: React.FC = () => {
     <section className={`flex flex-col bg-white py-20 text-3xl md:text-4xl`}>
       <div className="container mx-auto px-11">
         <p className="leading-tight max-w-5xl mx-auto text-4xl  tracking-tight">
-          <strong>We will help you develop better SaaS,Distributed systems, and microservices, faster.   </strong>
-          Our team of expert engineers have created some of the best user experiences in some of the most popular applications worldwide.
+          <strong>We will help you bring your ideas to life faster Websites,Microservices and more.   </strong>
+          Our team of expert engineers have a combined 15 years of experience building beautiful user interfaces for some of the most popular applications.
         </p>
       </div>
       <div className="container mx-auto px-11 text-center mt-28">
